@@ -19,17 +19,13 @@ nav .navbar-nav{
 nav .nav-link{
     padding: 0px !important; 
     color: #BBBBCB !important;
+    border-bottom: 3px solid #1C1E53;
+    transition: .5s;
+
 }
 nav .nav-link:hover{
     color: #FFFFFF !important;
-}
-nav .navbutton{
-    padding: 16px 48px;
-    border: 2px solid rgba(244, 246, 252, 0.2);
-    border-radius: 41px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FFFFFF;
+    border-bottom: 3px solid white;
 }
 nav .navbutton{
     margin-left: 48px;
@@ -39,6 +35,11 @@ nav .navbutton{
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
+    transition: .5s;
+}
+nav .navbutton:hover{
+    background: #ffffff;
+    color: #1C1E53;
 }
 /*-------------- navbar part end ---------------*/
 /*-------------- banner part start ---------------*/
