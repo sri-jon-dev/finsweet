@@ -10,6 +10,13 @@
 a{
     text-decoration: none;
 }
+.heading1{
+    font-size: 48px;
+    font-weight: 600;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0 auto;
+}
 /*-------------- navbar part start ---------------*/
 nav{
     padding: 16px 0px !important;
@@ -61,6 +68,7 @@ nav .navbutton:hover{
     margin: 24px 0px 48px 0px;
     color: #FFFFFF;
     line-height: 28px;
+    opacity: 70%;
 }
 .banner .col-lg-6 .bannerview-btn{
     padding: 16px 56px;
@@ -87,5 +95,57 @@ nav .navbutton:hover{
     color: #FCD980;
 }
 /*-------------- banner part end ---------------*/
+/*-------------- work part start ---------------*/
+.workpart{
+    background: #F4F6FC;
+}
+.workpart .container{
+    padding: 128px 0px;
+}
+.workpart .container .col-lg-5 p{
+    margin: 16px 0px;
+    width: 405px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+}
+.workpart .container .col-lg-5 .work-touch{
+    width: 245px;
+    position: relative;
+}
+.workpart .container .col-lg-5 a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #2405F2;
+    line-height: 32px;
+}
+.workpart .container .col-lg-5 .work-touch i{
+    left: 185px;
+    position: absolute;
+    transform: translate(0%,50%);
+    transition: .5s;
+}
+.workpart .container .col-lg-5 .work-touch:hover i{
+    left: 220px;
+}
+.workpart .col-lg-7 .row{
+    row-gap: 48px;
+}
+.workpart .col-lg-6 h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #282938;
+    line-height: 48px;
+}
+.workpart .col-lg-6 p{
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+}
+/*-------------- work part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
