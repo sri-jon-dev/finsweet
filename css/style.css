@@ -339,5 +339,68 @@ nav .navbutton:hover{
     color: #282938;
 }
 /*-------------- review part end ---------------*/
+/*-------------- question part start ---------------*/
+.question{
+    padding: 128px 0px;
+}
+.question .col-lg-4{
+    margin-right: 109px;
+    padding: 0px;
+    width: 328px;
+}
+.question .col-lg-4 h3{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.question .col-lg-4 P{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+    opacity: 87%;
+}
+.question .col-lg-8 .accordion-button .qus_text{
+    display: flex;
+    align-items: center;
+}
+.question .col-lg-8 .accordion-button .qus_text p{
+    padding-left: 27px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2405F2;
+    line-height: 36px;
+}
+.question .col-lg-8 .accordion-button .qus_text h3{
+    width: 700px;
+    margin-left: 59px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 36px;
+}
+.question .col-lg-8 .accordion-button .qus_text i{
+    transition: .8s;
+}
+.question .col-lg-8 .accordion-button:not(.collapsed) i{
+    transform: rotate(45deg);
+}
+.question .col-lg-8 .accordion-button.collapsed i{
+    transform: rotate(0deg);
+}
+.question .col-lg-8 .accordion-body p{
+    padding-left: 110px;
+    padding-right: 90px;
+    padding-top: 16px;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 87%;
+}
+.question .col-lg-8 .qus_divider{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 2px solid #ECECF1;
+}
+/*-------------- question part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
