@@ -235,7 +235,7 @@ nav .navbutton:hover{
 /*-------------- project part end ---------------*/
 /*-------------- feature part start ---------------*/
 .feature{
-    background: #F4F6FC;
+    background: rgba(244, 246, 252, 1);
 }
 .feature .container{
     padding: 128px 0px;
@@ -281,5 +281,63 @@ nav .navbutton:hover{
     opacity: 70%;
 }
 /*-------------- feature part end ---------------*/
+/*-------------- review part start ---------------*/
+.review{
+    padding: 130px 0px;
+    background: rgba(244, 246, 252, 0.500);
+}
+.review .col-lg-4{
+    padding: 0px;
+    width: 327px;
+}
+.review h3{
+    margin-bottom: 16px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 56px;
+}
+.review p{
+    font-weight: 400;
+    color: #282938;
+    line-height: 28px;
+    opacity: 70%;
+}
+.review .col-lg-8{
+    margin-left: 110px;
+}
+.review .col-lg-8 h3{
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.review .col-lg-8 .review-profile{
+    display: flex;
+}
+.review .col-lg-8 .profile_img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+}
+.review .col-lg-8 .profile_img img{
+    width: 100%;
+}
+.review .col-lg-8 .profile_text{
+    margin-left: 14px;
+
+}
+.review .col-lg-8 .profile_text p{
+    font-size: 18px;
+    color: #282938;
+}
+.review .col-lg-8 .profile_text span{
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+/*-------------- review part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
