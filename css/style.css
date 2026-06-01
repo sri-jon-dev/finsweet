@@ -233,5 +233,53 @@ nav .navbutton:hover{
     color: #FCD980;
 }
 /*-------------- project part end ---------------*/
+/*-------------- feature part start ---------------*/
+.feature{
+    background: #F4F6FC;
+}
+.feature .container{
+    padding: 128px 0px;
+}
+.feature .container p{
+    text-align: center;
+    color: #282938;
+    line-height: 28px;
+}
+.feature .container h2{
+    margin-top: 12px;
+    margin-bottom: 47px;
+    width: 630px;
+    color: #282938;
+    text-align: center;
+    line-height: 64px;
+}
+.feature .container .row{
+    row-gap: 24px;
+}
+.feature .container .feature_box{
+    padding: 48px 31px 48px 48px;
+    background: #ffffff;
+}
+.feature .container .feature_box i{
+    font-size: 28px;
+    color: #2405F2;
+}
+.feature .container .feature_box .mirror-flip{
+    transform: scale(-1, 1);
+}
+.feature .container .feature_box h4{
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+}
+.feature .container .feature_box p{
+    font-weight: 400;
+    text-align: start;
+    line-height: 28px;
+    opacity: 70%;
+}
+/*-------------- feature part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
