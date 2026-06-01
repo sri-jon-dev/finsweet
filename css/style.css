@@ -297,7 +297,7 @@ nav .navbutton:hover{
     color: #282938;
     line-height: 56px;
 }
-.review p{
+.review .col-lg-4 p{
     font-weight: 400;
     color: #282938;
     line-height: 28px;
@@ -327,10 +327,10 @@ nav .navbutton:hover{
 }
 .review .col-lg-8 .profile_text{
     margin-left: 14px;
-
 }
 .review .col-lg-8 .profile_text p{
     font-size: 18px;
+    font-weight: 500;
     color: #282938;
 }
 .review .col-lg-8 .profile_text span{
