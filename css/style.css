@@ -402,5 +402,91 @@ nav .navbutton:hover{
     border: 2px solid #ECECF1;
 }
 /*-------------- question part end ---------------*/
+/*-------------- form part start ---------------*/
+.form .row{
+    background-image: url("/image/form_background.jpg");
+    background-size: cover;
+}
+.form .row{
+    background-color: #1C1E5380;
+}
+.form .row .fo-text{
+    padding: 96px 96px 0px 96px;
+}
+.form .row .fo-text h3{
+    margin-bottom: 24px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 74px;
+}
+.form .row .fo-text p{
+    margin: 0px;
+    width: 464px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.form .row .fo-input{
+    padding: 107px 96px 38px 96px;
+    background-color: #1C1E53;
+}
+.form .row .fo-input h3{
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 48px;
+}
+.form .row .fo-input p{
+    margin-top: 17px;
+    margin-bottom: 40px;
+    color: #F4F6FC;
+    line-height: 28px;
+}
+.form .row .fo-input .mb-3{
+    width: 432px;
+}
+.form .row .fo-input .mb-3 input{
+    padding: 18px 0px 18px 32px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background-color: transparent;
+    color: #ffffff;
+}
+.form .row .fo-input .mb-3 input::placeholder{
+    font-weight: 400;
+    color: #F4F6FC;
+    line-height: 28px;
+    opacity: 50%;
+}
+.form .row .fo-input button{
+    width: 432px;
+    margin: 34px 0px;
+    padding: 16px 0px;
+    background-color: #FCD980;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1B1C2B;
+    border-radius: 41px;
+    border: 0px;
+}
+.form .row .fo-input .work-touch{
+    margin-left: 94px;
+    position: relative;
+}
+.form .row .fo-input .work-touch a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+.form .row .fo-input .work-touch i{
+    left: 190px;
+    position: absolute;
+    transform: translate(0%,50%);
+    transition: .5s;
+}
+.form .row .fo-input .work-touch:hover i{
+    left: 220px;
+}
+/*-------------- form part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
