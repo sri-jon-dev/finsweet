@@ -494,5 +494,58 @@ nav .navbutton:hover{
     left: 220px;
 }
 /*-------------- form part end ---------------*/
+/*-------------- blog part start ---------------*/
+.blog .container{
+    padding-top: 77px;
+    padding-bottom: 179px;
+}
+.blog .container .row{
+    margin-top: 64px;
+}
+.blog .container .col-lg-4 .blog-cart-img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: fill;
+}
+.blog .container .col-lg-4 span{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: #282938;
+    opacity: 70%;
+}
+.blog .container .col-lg-4 h4{
+    font-size: 24px;
+    color: #282938;
+    line-height: 36px;
+}
+.blog .container .col-lg-4 p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    color: #282938;
+    line-height: 28px;
+    opacity: 70%;
+}
+.blog .work-touch{
+    position: relative;
+}
+.blog .work-touch a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+    line-height: 28px;
+}
+.blog .work-touch i{
+    left: 110px;
+    position: absolute;
+    transform: translate(0%,50%);
+    transition: .5s;
+}
+.blog .work-touch:hover i{
+    left: 160px;
+}
+/*-------------- blog part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
