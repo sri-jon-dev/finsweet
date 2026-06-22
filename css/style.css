@@ -547,5 +547,64 @@ nav .navbutton:hover{
     left: 160px;
 }
 /*-------------- blog part end ---------------*/
+/*-------------- footer part start ---------------*/
+footer{
+    padding-top: 100px;
+    background-color: #1C1E53;
+}
+footer .col-lg-6 .footer-img{
+    width: 158px;
+    height: 38px;
+}
+footer .col-lg-6 .footer-img img{
+    width: 100%;
+    height: 100%;
+}
+footer .foot-left .foot-p{
+    margin: 22px 0px 86px 0px;
+    width: 399px;
+    color: #ffffff;
+    opacity: 80%;
+    line-height: 28px;
+}
+footer .foot-left .contact{
+    width: 517px;
+    padding: 17px 137px 16px 37px;
+    background: #FCD980;
+}
+footer .foot-left .contact{
+    display: flex;
+    justify-content: space-between;
+}
+footer .foot-left .contact h5{
+    font-size: 18px;
+    line-height: 32px;
+}
+footer .foot-left .contact p{
+    opacity: 80%;
+    line-height: 28px;
+}
+footer .foot-right h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 64px;
+}
+footer .foot-right p{
+    margin: 14px 0px 28px 0px;
+    width: 400px;
+    color: #F4F6FC;
+    line-height: 28px;
+    opacity: 80%;
+}
+footer .foot-right .icon{
+    display: flex;
+    gap: 27px;
+}
+footer .foot-right .icon i{
+    font-size: 16px;
+    color: #ffffff;
+}
+/*-------------- footer part end ---------------*/
 /*-------------- navbar part start ---------------*/
 /*-------------- navbar part end ---------------*/
