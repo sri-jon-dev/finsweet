@@ -606,5 +606,23 @@ footer .foot-right .icon i{
     color: #ffffff;
 }
 /*-------------- footer part end ---------------*/
-/*-------------- navbar part start ---------------*/
-/*-------------- navbar part end ---------------*/
+/*-------------- footerend part start ---------------*/
+.footerend{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footerend p{
+    line-height: 28px;
+    color: #282938;
+}
+.footerend ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: right;
+}
+.footerend ul li a{
+    text-decoration: none;
+    color: #282938;
+}
+/*-------------- footerend part end ---------------*/
